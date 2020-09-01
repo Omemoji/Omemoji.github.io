@@ -2,9 +2,10 @@
 <html lang="ja">
  <head>
      <meta charset="utf-8">
-     <title>創作物紹介</title>
+     <title>立体|創作物紹介</title>
      <link rel="shortcut icon" href="Images/omemoji.jpg">
-     <link rel="stylesheet" href="CSS/homestyle.css">
+     <link rel="stylesheet" href="CSS/contentsstyle.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
  </head>
  <body>
     <header>
@@ -28,10 +29,8 @@
                                 <img src="Images/Music.svg" >
                             </a>
                         </li>
-                        <li class="object">
-                            <a href="Objects.html">
-                                <img src="Images/Object.svg">
-                            </a>
+                        <li>
+                            <img src="Images/Object.svg" style="filter: brightness(130%);">
                         </li>
                     </ul>
                 </div>
@@ -64,52 +63,38 @@
                             <span class="balloon">YouTube</span>
                         </li>        
                     </ul>
-                </div>    
+                </div>      
             </li>
         </ul>
     </nav>
   <main>
-      <ul>
-          <li>
             <article>
                 <h1>
-                 ようこそ
+                立体
                 </h1>
-                <p class=welcome>日々生成される創作物を紹介していくブログです. <br>
-                    楽しんでいって下さいね.</p>
-                <h2>
-                    自己紹介
-                </h2>
-                <img class="myicon" src="Images/omemoji.jpg">
-                <p>私は創介といいます. 2020年より<a name="0" href="https://www.coins.tsukuba.ac.jp/">
-                    筑波大学情報学群情報科学類</a>に所属しています.<br>
-                    図画団(筑波大学の美術系サークル)に所属しています. <br>
-                    ものを作ること, とりわけ絵を描くことが好きです. 
-                    <br clear="left">
-                </p>
-                <h2>
-                    今していること
-                </h2>
-                <p class=now>
-                    Illustratorや色鉛筆で絵を描いています. たまにアクリル絵具も使います.<br>
-                    Twitterやはてなブログもやっています. プログラミング関係の成果物はそれらで公開するかもしれません.
-                </p>
+                <p>クリックで拡大します.</p>
+                <figure>
+                    <a href="Works/Objects/自在龍.jpg" data-lightbox="abc">
+                        <img src="Works/Objects/自在龍.jpg">
+                    </a>
+                    <figcaption>
+                        ＜アソブロック＞自在龍
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="Works/Objects/ヘッドホン立て.JPG" data-lightbox="abc">
+                        <img src="Works/Objects/ヘッドホン立て.JPG">
+                    </a>
+                    <figcaption>
+                        ＜アソブロック＞ヘッドホン立て
+                    </figcaption>
+                </figure>
             </article>
-          </li>
-          <li>
-            <aside>
-                <h2>
-                    更新
-                </h2>
-                <p>
-                    2020/09/01 Webサイトを開設
-                </p>
-            </aside>
-          </li>
-      </ul>
   </main>
   <footer>
     © 2020 omemoji
   </footer>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
  </body>
 </html>
