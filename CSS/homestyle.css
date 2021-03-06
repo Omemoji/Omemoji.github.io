@@ -1,0 +1,171 @@
+html, body {
+  margin: 0 ;
+  
+  color: #005050;
+  background-color:#000000;
+}
+a {
+  color:rgb(240, 116, 0);
+}
+body {
+  background-image: url("haikei.jpg");
+  background-size: cover; 
+  background-attachment:fixed;
+}
+
+
+h1,h2{
+  border-bottom: 1px solid #8c8b8b;
+}
+h1, h2, h3{
+  color:#00515f
+}
+ul{
+  margin-block-start:5px;
+    margin-block-end: 0;
+}
+header {
+  background-color: #000000;
+  text-align: center;
+  max-height: 360px
+}
+header img {
+  padding:0;
+  max-height: 360px;
+}
+nav {
+  margin: 0;
+  background-color:#8877af;
+  text-align: center;
+}
+nav ul{
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+nav li{
+  display: inline-block;
+}
+.tab{
+  background-color:#8877af;
+}
+.tab ul{
+  display:flex;
+}
+.tab li{
+  display: inline;
+}
+.tab img{
+  height: 40px;
+  margin:0 5px;
+}
+.illust :hover img {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+.tune :hover img {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+.object :hover img {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+.logo{
+  background-color:#8877af;
+}
+.logo ul{
+  display:flex;
+}
+.logo li{
+  display: inline;
+}
+.logo img{
+ height:40px;
+ margin: 0 20px;
+}
+.ancestor {
+  position: relative;
+}
+.ancestor:hover .balloon{
+  display: inline;
+}
+.balloon {
+  position  : absolute;                /* 親要素を基準 */
+  display: none;                   /* 要素を非表示 */
+  padding: 2px;                         /* テキストの前後の余白 */
+  color:#ffffff;
+  width:100px;
+  background-color:rgb(136,119,175,0.7);       /* 背景色（透明度） */    
+  left : 0%;                           /* 表示位置 */
+  top : 100%;                           /* 表示位置 */
+  margin-top : 0px;                    /* 表示位置 */               
+}
+
+main {
+  text-align: center;
+}
+main h2{
+  margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0 10px;
+}
+main p {
+  display: block;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+main ul{
+  margin: 5px;
+  padding-inline-start: 5px;
+  list-style-type: none;
+ 
+  
+}
+main li{
+  display: inline-block;
+  vertical-align: top;
+  background-color: none;
+}
+article{
+  max-width: 600px;
+  margin: 5px;
+  background-color: #ffffff;
+  text-align: left;
+  padding: 0px 50px 30px 0px;
+}
+article h1, article h2{
+  margin:0 10px 0 120px;
+  
+}
+aside{
+  max-width:420px;
+  min-height: 519px;
+  margin-top: 5px;
+  padding: 0px 50px 0px 50px;
+  background-color:#ffffff;
+  text-align: left
+}
+.welcome{
+  margin:0 0 20px 110px;
+}
+.myicon {
+  margin:0 0 80px 20px;
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #101000;
+  float: left;margin-right: 10px;
+}
+.now{
+  margin:0 0 20px 110px;
+}
+footer{
+  text-align: center;
+  color:#ffffff;
+  background-color:#000000;
+  height:30px
+}
+
