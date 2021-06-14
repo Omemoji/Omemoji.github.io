@@ -15,8 +15,9 @@ body {
 
 h1 {
     padding: 20px 0 10px 0;
-    font-size: 35px;
+    font-size: 40px;
     color: #fff;
+    text-align: center;
 }
 
 h2 {
@@ -51,6 +52,13 @@ hr {
 header {
     text-align: center;
     padding: 0px;
+}
+
+.sub {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
 }
 
 nav {
